@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Orcamento</string>
+    <string name="txPiso">Piso</string>
 </resources>
