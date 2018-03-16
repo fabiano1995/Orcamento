@@ -45,7 +45,6 @@
             android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/plus"
             android:padding="5dp"
             android:paddingBottom="20dp"
             android:paddingTop="30dp"
@@ -89,7 +88,6 @@
             android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/plus"
             android:padding="10dp"
             android:paddingTop="30dp"
             android:text="@string/btnParede" />
