@@ -5,61 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.fnoc.orcamento.orcamento.Main2Activity">
+    tools:context="com.fnoc.orcamento.orcamento.Main3Activity">
 
     <TextView
-        android:id="@+id/txPisoQuantidade"
+        android:id="@+id/txParedeTamanho"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txPisoQuantidade"
-        android:textSize="20sp" />
+        android:text="@string/txParedeTamanho"
+        android:textSize="20sp"/>
 
     <EditText
-        android:id="@+id/vlPisoQuantidade"
+        android:id="@+id/vlPisoTamanho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"  />
 
     <RadioGroup
-        android:id="@+id/rdPorcelanato"
+        android:id="@+id/rdParede"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="60dp"
         android:paddingTop="25dp">
 
         <RadioButton
-            android:id="@+id/vlPisoPorcelanato1"
-            android:layout_width="wrap_content"
+            android:id="@+id/vlParedeTinta1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="@string/txPisoPorcelanato1"
+            android:text="@string/txParedeTinta1"
             android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/vlPisoPorcelanato2"
-            android:layout_width="wrap_content"
+            android:id="@+id/vlParedeTinta2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/txPisoPorcelanato2"
-            android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/vlPisoPorcelanato3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/txPisoPorcelanato3"
-            android:textSize="20sp" />
-
+            android:text="@string/txParedeTinta2"
+            android:textSize="20sp"/>
     </RadioGroup>
 
     <LinearLayout
         android:id="@+id/col1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:paddingTop="150dp">
 
@@ -68,14 +58,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/txPisoOk" />
+            android:text="@string/txParedeOk" />
 
         <Button
             android:id="@+id/btnCancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/txPisoCancelar" />
+            android:text="@string/txParedeCancelar" />
     </LinearLayout>
-
 </LinearLayout>

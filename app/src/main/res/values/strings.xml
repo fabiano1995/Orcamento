@@ -17,4 +17,10 @@
     <string name="txPisoOk">OK</string>
     <string name="txPisoCancelar">Cancelar</string>
 
+    <string name="txParedeTamanho">Tamanho (m²)</string>
+    <string name="txParedeTinta1">Tinta 1 - R$ 35.00</string>
+    <string name="txParedeTinta2">Tita 2 - R$ 55.00 </string>
+    <string name="txParedeOk">OK</string>
+    <string name="txParedeCancelar">Cancelar</string>
+
 </resources>
