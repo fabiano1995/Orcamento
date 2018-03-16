@@ -1,9 +1,20 @@
 <resources>
     <string name="app_name">Orcamento</string>
+
     <string name="txPiso">Piso</string>
     <string name="vlPiso">0</string>
     <string name="btnPiso">+</string>
     <string name="txParede">Parede</string>
     <string name="vlParede">0</string>
     <string name="btnParede">+</string>
+    <string name="txTotal">Total</string>
+    <string name="vlTotal">0</string>
+
+    <string name="txPisoQuantidade">Quantidade (m²)</string>
+    <string name="txPisoPorcelanato1">Porcelanato 1 - R$ 75.00 </string>
+    <string name="txPisoPorcelanato2">Porcelanato 2 - R$ 125.00</string>
+    <string name="txPisoPorcelanato3">Porcelanato 3 - R$ 300.00</string>
+    <string name="txPisoOk">OK</string>
+    <string name="txPisoCancelar">Cancelar</string>
+
 </resources>

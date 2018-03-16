@@ -19,8 +19,9 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="5dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="30dp"
             android:text="@string/txPiso"
             android:textSize="24sp" />
 
@@ -32,7 +33,8 @@
             android:ems="10"
             android:inputType="number"
             android:padding="5dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="30dp"
             android:selectAllOnFocus="false"
             android:singleLine="false"
             android:text="@string/vlPiso"
@@ -45,7 +47,8 @@
             android:layout_weight="1"
             android:background="@drawable/plus"
             android:padding="5dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="30dp"
             android:text="@string/btnPiso" />
 
     </LinearLayout>
@@ -53,7 +56,7 @@
     <LinearLayout
         android:id="@+id/col2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
@@ -61,7 +64,9 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="10dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="30dp"
             android:text="@string/txParede"
             android:textSize="24sp" />
 
@@ -73,6 +78,7 @@
             android:ems="10"
             android:inputType="number"
             android:padding="10dp"
+            android:paddingTop="30dp"
             android:selectAllOnFocus="false"
             android:singleLine="false"
             android:text="@string/vlParede"
@@ -85,6 +91,7 @@
             android:layout_weight="1"
             android:background="@drawable/plus"
             android:padding="10dp"
+            android:paddingTop="30dp"
             android:text="@string/btnParede" />
 
     </LinearLayout>
@@ -93,5 +100,28 @@
         android:id="@+id/col3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingTop="200dp"
+            android:text="@string/txTotal"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/vlTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="bottom"
+            android:inputType="textPersonName"
+            android:paddingTop="200dp"
+            android:text="@string/vlTotal" />
+    </LinearLayout>
 </LinearLayout>
