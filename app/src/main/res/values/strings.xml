@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Orcamento</string>
     <string name="txPiso">Piso</string>
+    <string name="vlPiso">0</string>
+    <string name="btnPiso">+</string>
+    <string name="txParede">Parede</string>
+    <string name="vlParede">0</string>
+    <string name="btnParede">+</string>
 </resources>
