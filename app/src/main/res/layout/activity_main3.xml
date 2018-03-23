@@ -15,11 +15,11 @@
         android:textSize="20sp"/>
 
     <EditText
-        android:id="@+id/vlPisoTamanho"
+        android:id="@+id/vlParedeTamanho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number"  />
+        android:inputType="number" />
 
     <RadioGroup
         android:id="@+id/rdParede"
